@@ -1,2 +1,4 @@
-package com.company.factories;public class PlayerFactory {
+package com.company.factories;
+
+public class PlayerFactory {
 }
