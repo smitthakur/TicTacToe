@@ -1,5 +1,10 @@
 package com.company.models;
 
+import com.company.exceptions.InvalidGameConstructionParametersException;
+import com.company.strategies.gamewinningstrategy.GameWinningStrategy;
+import com.company.strategies.gamewinningstrategy.OrderOneGameWinningStrategy;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Game {

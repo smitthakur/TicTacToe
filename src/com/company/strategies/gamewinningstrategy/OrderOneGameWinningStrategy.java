@@ -1,10 +1,14 @@
 package com.company.strategies.gamewinningstrategy;
 
+import com.company.models.Board;
+import com.company.models.Cell;
+import com.company.models.Player;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class OrderOneGameWinningStrategy extends GameWinningStrategy{
+public class OrderOneGameWinningStrategy implements GameWinningStrategy{
     private List<HashMap<Character, Integer>> rowSymbolCounts = new ArrayList<>();
     private List<HashMap<Character, Integer>> colSymbolCounts = new ArrayList<>();
     private HashMap<Character, Integer> topLeftDiagSymbolCounts = new HashMap<>();

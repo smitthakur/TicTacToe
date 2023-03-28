@@ -3,7 +3,7 @@ package com.company.models;
 import com.company.factories.BotPlayingStrategyFactory;
 import com.company.strategies.botplayingstrategy.BotPlayingStrategy;
 
-public class Bot {
+public class Bot extends Player{
     private BotDifficultyLevel botDifficultyLevel;
     private BotPlayingStrategy botPlayingStrategy;
 
